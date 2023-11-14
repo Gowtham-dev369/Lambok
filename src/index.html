@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lombok</title>
+    <link rel="stylesheet" href="../dist/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="flex justify-between absolute p-8 w-full">
+        <div class="text-slate-300 text-2xl bg-transparent">LO</div>
+        <ul class="hidden text-slate-100 sm:flex">
+          <li class="px-2"><a href="#home">Home</a></li>
+          <li class="px-2"><a href="#About">About</a></li>
+          <li class="px-2"><a href="#Subscribe">Subscribe</a></li>
+        </ul>
+        <svg
+          class="sm:hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="30"
+          height="30"
+          viewBox="0,0,256,256"
+          style="fill: #ffffff"
+        >
+          <g
+            fill="#ffffff"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+            style="mix-blend-mode: normal"
+          >
+            <g transform="scale(5.12,5.12)">
+              <path d="M0,9v2h50v-2zM0,24v2h50v-2zM0,39v2h50v-2z"></path>
+            </g>
+          </g>
+        </svg>
+        <!-- <img src="./images/icons8-menu-100.png" alt="" height="30" width="30"> -->
+      </nav>
+    </header>
+
+    <main>
+      <!-- First-Page -->
+      <section>
+        <div
+          class="flex flex-col items-center justify-center w-full h-screen bg-cover text-slate-200 bg-[url('../images/hero.jpg')]"
+        >
+          <h1 class="text-6xl sm:text-8xl">Lambok</h1>
+          <h3 class="mt-5">Holistics Health</h3>
+        </div>
+      </section>
+      <section class="second-page bg-emerald-50 py-16 text-center">
+        <h1>New Articles</h1>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-8">
+          <li>
+            <div class="card">
+              <img src="./images/images1.jpg" alt="image-1" />
+              <p>How to use Mindfullness in your everyday Life</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="./images/images1.jpg" alt="image-1" />
+              <p>How to use Mindfullness in your everyday Life</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="./images/images2.jpg" alt="image-2" />
+              <p>How to use Mindfullness in your everyday Life</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="./images/images3.jpg" alt="image-3" />
+              <p>How to use Mindfullness in your everyday Life</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="flex flex-col text-center md:flex-row w-full items-center"
+      >
+        <img src="./images/images4.jpg" alt="" class="w-full md:w-1/2 "/>
+        <div class="py-18 px-12">
+          <h1 class="text-4xl mt-10 mb-5">This Is Title</h1>
+          <p class="text-justify mb-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            voluptatem quidem animi ea officiis tenetur quaerat, optio veniam!
+            Optio non voluptatem consequuntur numquam possimus doloribus porro
+            esse vero error minus aliquam voluptates, 
+          </p>
+        </div>
+      </section>
+      <section class="text-center bg-green-200 py-24 text-slate-700">
+        <h1 class="text-8xl">Subscribe</h1>
+        <h3 class="py-4 pb-14">Sign up for newsletter for Latest updates</h3>
+        <label for="signup-letter">
+          <input
+            type="text"
+            class="bg-slate-50 w-96 p-4 rounded-lg"
+            placeholder="example@xyz.com"
+          />
+          <br />
+          <button class="bg-emerald-300 border py-3 px-8 rounded-lg m-4">
+            Submit
+          </button>
+        </label>
+      </section>
+    </main>
+    <footer>
+      <header>
+        <nav class="flex bg-emerald-900 justify-between px-10 items-center">
+          <ul class="flex justify-evenly gap-4">
+            <li><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+<g fill="#dfdfdf" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path></g></g>
+</svg></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+<g fill="#dfdfdf" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M9,4c-2.74952,0 -5,2.25048 -5,5v32c0,2.74952 2.25048,5 5,5h16.83203c0.10799,0.01785 0.21818,0.01785 0.32617,0h5.67383c0.10799,0.01785 0.21818,0.01785 0.32617,0h8.8418c2.74952,0 5,-2.25048 5,-5v-32c0,-2.74952 -2.25048,-5 -5,-5zM9,6h32c1.66848,0 3,1.33152 3,3v32c0,1.66848 -1.33152,3 -3,3h-8v-14h3.82031l1.40039,-7h-5.2207v-2c0,-0.55749 0.05305,-0.60107 0.24023,-0.72266c0.18718,-0.12159 0.76559,-0.27734 1.75977,-0.27734h3v-5.63086l-0.57031,-0.27149c0,0 -2.29704,-1.09766 -5.42969,-1.09766c-2.25,0 -4.09841,0.89645 -5.28125,2.375c-1.18284,1.47855 -1.71875,3.45833 -1.71875,5.625v2h-3v7h3v14h-16c-1.66848,0 -3,-1.33152 -3,-3v-32c0,-1.66848 1.33152,-3 3,-3zM32,15c2.07906,0 3.38736,0.45846 4,0.70117v2.29883h-1c-1.15082,0 -2.07304,0.0952 -2.84961,0.59961c-0.77656,0.50441 -1.15039,1.46188 -1.15039,2.40039v4h4.7793l-0.59961,3h-4.17969v16h-4v-16h-3v-3h3v-4c0,-1.83333 0.46409,-3.35355 1.28125,-4.375c0.81716,-1.02145 1.96875,-1.625 3.71875,-1.625z"></path></g></g>
+</svg></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+<g fill="#dfdfdf" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+</svg></li>
+          </ul>
+          <ul class="text-slate-100 flex gap-4 py-8">
+            <li>About</li>
+            <li>Article</li>
+            <li>subscribe</li>
+          </ul>
+        </nav>
+      </header>
+    </footer>
+  </body>
+</html>
